@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+$font-dir: "../assets/fonts/";
+
+@font-face {
+	font-family: 'Silkscreen';
+	src: url('#{$font-dir}/Silkscreen-Bold/Silkscreen-Bold.eot');
+	src: url('#{$font-dir}/Silkscreen-Bold/Silkscreen-Bold.eot?#iefix') format('embedded-opentype'),
+		url('#{$font-dir}/Silkscreen-Bold/Silkscreen-Bold.woff') format('woff'),
+		url('#{$font-dir}/Silkscreen-Bold/Silkscreen-Bold.ttf') format('truetype'),
+		url('#{$font-dir}/Silkscreen-Bold/Silkscreen-Bold.svg#Silkscreen-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
