@@ -12,3 +12,14 @@ $font-dir: "../assets/fonts/";
 	font-weight: bold;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('#{$font-dir}/BebasNeueBold/BebasNeueBold.eot');
+	src: url('#{$font-dir}/BebasNeueBold/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+		url('#{$font-dir}/BebasNeueBold/BebasNeueBold.woff') format('woff'),
+		url('#{$font-dir}/BebasNeueBold/BebasNeueBold.ttf') format('truetype'),
+		url('#{$font-dir}/BebasNeueBold/BebasNeueBold.svg#BebasNeueBold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
