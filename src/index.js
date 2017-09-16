@@ -1,3 +1,4 @@
 const m = require('mithril');
+const Home = require('./components/home/Home');
 
-m.render(document.body, m('h1', "Coming soon!"));
+m.render(document.body, m(Home));
