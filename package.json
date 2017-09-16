@@ -1,0 +1,19 @@
+{
+  "name": "rgdjam-showcase",
+  "version": "1.0.0",
+  "description": "Webpage featuring the games from the Roc Game Dev Jam 2017.",
+  "repository": "https://github.com/Weslo/rgdjam-showcase",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "$(npm bin)/webpack src/index.js bin/app.js -d --watch"
+  },
+  "author": "Wes Rockholz",
+  "license": "MIT",
+  "dependencies": {
+    "mithril": "^1.1.3"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
