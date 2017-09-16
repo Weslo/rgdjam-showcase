@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+@import "vars";
+@import "fonts";
+@import "columns";
+
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +14,7 @@
 
 body {
     background-color: $color-rgd-blue;
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(0,0,0,.1) 35px, rgba(0,0,0,.1) 70px);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, $color-rgd-blue-dark 35px, $color-rgd-blue-dark 70px);
 }
 
 h1, h2 {
