@@ -23,3 +23,14 @@ $font-dir: "../assets/fonts/";
 	font-weight: bold;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Lato';
+	src: url('#{$font-dir}/Lato-Regular/Lato-Regular.eot');
+	src: url('#{$font-dir}/Lato-Regular/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		url('#{$font-dir}/Lato-Regular/Lato-Regular.woff') format('woff'),
+		url('#{$font-dir}/Lato-Regular/Lato-Regular.ttf') format('truetype'),
+		url('#{$font-dir}/Lato-Regular/Lato-Regular.svg#Lato-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
