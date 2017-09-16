@@ -1,13 +1,22 @@
+@charset "utf-8";
+
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Lato';
+
+    font-family: $font-paragraph;
+    color: $color-white;
+}
+
+body {
+    background-color: $color-rgd-blue;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(0,0,0,.1) 35px, rgba(0,0,0,.1) 70px);
 }
 
 h1, h2 {
-    font-family: 'Silkscreen';
+    font-family: $font-title;
 }
 
 h3, h4 {
-    font-family: 'Bebas Neue';
+    font-family: $font-heading;
 }
