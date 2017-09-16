@@ -1,13 +1,17 @@
 @charset "utf-8";
 
+$border-style: 2px solid $color-white;
+
 .header {
     background-color: $color-black;
+    border-bottom: $border-style;
     padding: 20px;
     text-align: center;
 }
 
 .footer {
     background-color: $color-black;
+    border-top: $border-style;
 
     & > div {
         padding: 20px;
