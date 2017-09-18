@@ -9,6 +9,10 @@ $border-style: 2px solid $color-white;
     text-align: center;
 }
 
+.showcase {
+    min-height: 50vh;
+}
+
 .footer {
     background-color: $color-black;
     border-top: $border-style;
