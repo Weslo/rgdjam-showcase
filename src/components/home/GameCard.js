@@ -4,8 +4,10 @@ const Component = require('../core/Component');
 class GameCard extends Component {
 
     view() {
-        return('.game-card', [
-            m('a[href="games/test/index.html"]', "Test Game")
+        return m('.game-card col-2', [
+            m('img[src="games/test/banner.png"]'),
+            m('.title', "Test Game"),
+            m('.description', "This is an example of an awesome game made right here in Rochester!")
         ]);
     }
 }

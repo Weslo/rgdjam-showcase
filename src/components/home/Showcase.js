@@ -6,7 +6,13 @@ class Showcase extends Component {
 
     view() {
         return m('.showcase', [
-            m(GameCard)
+            m('.row', [
+                m(GameCard),
+                m(GameCard),
+                m(GameCard),
+                m(GameCard),
+                m(GameCard)
+            ])
         ]);
     }
 }

@@ -12,3 +12,8 @@
     @include col();
     width: 50%;
 }
+
+.row {
+    max-width: $content-max-width;
+    margin: 0 auto;
+}
