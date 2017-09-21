@@ -15,10 +15,26 @@ $border-style: 2px solid $color-white;
     min-height: 50vh;
 
     .game-card {
-        padding: 50px;
+        padding: 20px;
 
-        img {
-            width: 100%;
+        .container {
+            padding: 20px;
+
+            img {
+                width: 100%;
+            }
+
+            &:hover {
+                cursor: pointer;
+
+                @include transition($transition-duration);
+                outline: $border-style;
+                background-color: rgba(1, 1, 1, 0.5);
+            }
+
+            @include transition($transition-duration);
+            outline: 2px solid rgba(1, 1, 1, 0);
+            background-color: rgba(1, 1, 1, 0);
         }
     }
 }
