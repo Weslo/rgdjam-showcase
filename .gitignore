@@ -2,3 +2,4 @@ node_modules
 bin
 games/*
 !games/test
+*.DS_Store
