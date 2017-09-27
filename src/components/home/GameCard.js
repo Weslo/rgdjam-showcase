@@ -24,13 +24,17 @@ class GameCard extends Component {
 
     view(vnode) {
         return m('.game-card col-2',
-            m('.container', [
+            m('.container', { onclick: () => { this.play(vnode.state.projectPath) } }, [
                 m('img', { src: vnode.state.projectPath + "banner.png" }),
                 m('.title', vnode.state.projectData['title']),
                 m('.author', vnode.state.projectData['author']),
                 m('.description', vnode.state.projectData['description'])
             ])
         );
+    }
+
+    play(addr) {
+        window.location.href = addr;
     }
 }
 
