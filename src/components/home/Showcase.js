@@ -24,7 +24,6 @@ class Showcase extends Component {
     view(vnode) {
         return m('.showcase', [
             m('.row', vnode.state.projects.map(function(projectName) {
-                console.log(projectName);
                 return m(GameCard, { project: projectName });
             }))
         ]);

@@ -10,6 +10,16 @@ class GameCard extends Component {
             "author": "Roc Game Dev",
             "description": "This project is missing an info.json file."
         };
+        m.request({
+            method: "GET",
+            url: vnode.state.projectPath + "info.json"
+        })
+        .then(function(json) {
+            vnode.state.projectData = json;
+        })
+        .catch(function(e) {
+            console.log("Error loading project info for " + vnode.attrs.project + ": " + e.message);
+        });
     }
 
     view(vnode) {

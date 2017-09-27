@@ -1,20 +1,13 @@
 const m = require('mithril');
 
 class Component {
-    constructor(vnode) {
-    }
+    constructor(vnode) { }
 
-    oncreate(vnode) {
-        console.log("Component created!");
-    }
+    oncreate(vnode) { }
 
-    oninit(vnode) {
-        console.log("Component initialized!");
-    }
+    oninit(vnode) { }
 
-    view(vnode) {
-        return m('div', "Hello, world!");
-    }
+    view(vnode) { return m('div', "Hello, world!"); }
 }
 
 module.exports = Component;
