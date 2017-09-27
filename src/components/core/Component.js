@@ -4,12 +4,16 @@ class Component {
     constructor(vnode) {
     }
 
-    view() {
-        return m('div', "Hello, world!");
+    oncreate(vnode) {
+        console.log("Component created!");
     }
 
-    oncreate() {
-        console.log("Component created!");
+    oninit(vnode) {
+        console.log("Component initialized!");
+    }
+
+    view(vnode) {
+        return m('div', "Hello, world!");
     }
 }
 
