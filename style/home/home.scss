@@ -43,7 +43,36 @@ $border-style: 2px solid $color-white;
     background-color: $color-black;
     border-top: $border-style;
 
-    & > div {
-        padding: 20px;
+    .row {
+
+        & > div {
+            padding: 20px;
+        }
+    }
+
+    .social {
+
+        ul {
+            list-style: none;
+            width: 100%;
+
+            li {
+                display: inline-block;
+                padding: 5px;
+                width: 30%;
+
+                &:hover {
+                    cursor: pointer;
+
+                    @include transition($transition-duration);
+                    outline: $border-style;
+                    background-color: rgba(1, 1, 1, 0.5);
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
 }
