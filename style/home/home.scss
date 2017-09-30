@@ -11,7 +11,8 @@ $border-style: 2px solid $color-white;
 
 .showcase {
     background-color: $color-rgd-blue;
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, $color-rgd-blue-dark 35px, $color-rgd-blue-dark 70px);
+    background-image: url("#{$assets-dir}/imgs/showcase/background-checkered.png");
+    background-repeat: repeat;
     min-height: 50vh;
 
     .game-card {

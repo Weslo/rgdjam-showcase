@@ -1,5 +1,4 @@
 const m = require('mithril');
-const $ = require('jquery');
 const Component = require('../core/Component');
 const GameCard = require('./GameCard');
 
